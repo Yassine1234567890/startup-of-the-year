@@ -1,0 +1,114 @@
+
+
+
+
+
+   
+    h1 {
+        color: aqua;
+        text-align: center;
+        
+        font-style: italic;
+        
+    }
+ body{
+        
+    background-image: url(soutien_scolaire.jpg);
+        
+    }
+   
+   ul{
+        list-style-type:none;
+        display: flex;
+        justify-content: space-between;
+        
+        margin: auto;
+        background-color: blanchedalmond;
+    }
+    .nivaux{
+        width: 150px;
+    }
+    h2{
+        margin: 0;
+    }
+    .nivaux .matiere a{
+        color: white;
+        text-decoration: none;
+    }
+    .nivaux .matiere{
+        position: absolute;
+        padding-left: 0;
+        opacity: 0;
+        flex-direction: column;
+        font-size: 25px;
+        background-color: rgba(0, 0, 255, 0.548);
+        text-align: center;
+        box-shadow: 5px 5px 10px #000;
+        overflow: hidden;
+        transition: opacity 300ms ease;
+        max-height: 0px; 
+    }
+    .nivaux:hover .matiere{
+        padding-left: 0;
+        opacity: 1;
+        flex-direction: column;
+        max-height:inherit;
+    }
+
+   
+
+
+
+
+    h3 {
+        font-size: 2.8rem;
+    }
+    h4{
+        font-size: 3rem;
+        font-weight: normal;
+    } 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hero{
+        min-height: 90vh;
+        background-size: cover;
+        background-position: bottom;
+        color: orangered;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero h4{
+        padding: 4rem
+    }
+       button {
+        padding: 2rem 6rem;
+        background:chartreuse;
+        color: darkblue;
+        font-size: 1.8rem;
+        cursor: pointer;
+        border: none;
+    }
